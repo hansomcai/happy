@@ -1,0 +1,18 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: happy-sms
+  rabbitmq:
+    host: 192.168.137.135
+    username: cai
+    password: 123
+    virtual-host: /
+  main:
+    allow-bean-definition-overriding: true
+leyou:
+  sms:
+    accessKeyId: LAdjdadsfkmfsadmfalR # 你自己的accessKeyId
+    accessKeySecret: acgidlsfjneksidjeysnsk # 你自己的AccessKeySecret
+    signName: leyouMall # 签名名称
+    verifyCodeTemplate: SMdajfafjaf # 模板名称
